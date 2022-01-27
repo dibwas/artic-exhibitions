@@ -1,10 +1,10 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "typescript-nextjs-art-project",
+  "description": "Art project",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
-  "license": "MIT",
+  "author": "Dibyendu Biswas",
+  "license": "Ownership of Dibyendu Biswas",
   "keywords": [
     "nextjs",
     "starter",
