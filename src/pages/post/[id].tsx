@@ -1,15 +1,24 @@
 import SingleItem from "@/components/SingleItem"
 import { baseUrl } from "@/constants"
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 
 function Post({ data }) {
-  if (data) {
-    return (
-      <SingleItem props={data.data} />
-    )
+  const router = useRouter();
+
+  if (data.data) {
+      return (
+        <SingleItem props={data.data} />
+      )
   } else {
+    useEffect(() => {
+      router.push(`/404`);
+    });
     return ``;
   }
+
+  
 }
 
 // This also gets called at build time
